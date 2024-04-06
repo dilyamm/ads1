@@ -16,6 +16,7 @@ public class Main {
         gcd();
     }
     //task1
+    // Complexity: linear O(1)
 
     public static int findMinimum(int n, int[] arr) {
         // Check if the array is empty
@@ -49,6 +50,8 @@ public class Main {
     }
 
     //task2
+    // Complexity: linear O(1)
+    
     public static double findAverage(int n, int[] arr) {
         // Check if the array is empty
         if (n == 0) {
@@ -74,6 +77,7 @@ public class Main {
     }
 
     // task3
+    // Complexity: linear O(sqrt(N))
 
     public static boolean isPrime(int n) {
         if (n <= 1) {
@@ -101,6 +105,7 @@ public class Main {
     }
 
     //task4
+    // Complexity: linear O(N)
 
     public static int findFactorial(int n) {
         if (n == 0 || n == 1) {
@@ -117,6 +122,7 @@ public class Main {
     }
 
     //task5
+    //Complexity: exponential - O(2^N)
 
     public static int findFibonacci(int n) {
         if (n == 0) {
@@ -135,6 +141,7 @@ public class Main {
     }
 
     //task6
+    //Complexity: logarithmic - O(log n)
 
     public static int findPower(int a, int n) {
         return (int) Math.pow(a, n);
@@ -148,6 +155,7 @@ public class Main {
     }
 
     // task7
+    //Complexity: factorial - O(N!)
 
     public static void findPermutations(char[] chars, int ind) {
         if (ind == chars.length - 1) {
@@ -174,6 +182,7 @@ public class Main {
     }
 
     // task8
+    //Complexity: linear - O(N)
 
     public static boolean isDigits(String n) {
         for (char a: n.toCharArray()) {
@@ -191,6 +200,7 @@ public class Main {
     }
 
     //task9
+    //Complexity: quadratic - O(N*k)
 
     public static int findBinCoef(int n, int k) {
         int[][] dp = new int[n + 1][k + 1]; //dynamic programming
@@ -220,6 +230,7 @@ public class Main {
     }
 
     //task 10
+    //Complexity: logarithmic - O(log(min(a, b)))
 
     public static int findGCD(int a, int b) {
         if (b == 0) {
